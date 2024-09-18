@@ -1,0 +1,88 @@
+/* استایل صفحه اصلی */
+.lettermanager-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e3e4e6;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
+    overflow-y: auto;
+}
+
+.lettermanager-content:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.lettermanager-content h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #0073aa;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* استایل برای هر بخش */
+.letter-types {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.letter-types h2 {
+    color: #34495e;
+    font-size: 26px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #0073aa;
+}
+
+.letter-types ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.letter-types li {
+    display: inline-block;
+}
+
+.letter-types a {
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: #0073aa;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 115, 170, 0.3);
+}
+
+.letter-types a:hover {
+    background-color: #005f8c;
+    box-shadow: 0 8px 20px rgba(0, 115, 170, 0.4);
+    transform: translateY(-3px);
+}
+
+body {
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    height: 100vh;
+    overflow-y: auto;
+}

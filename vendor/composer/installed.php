@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'your/package',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'phpoffice/math' => array(
+            'pretty_version' => '0.2.0',
+            'version' => '0.2.0.0',
+            'reference' => 'fc2eb6d1a61b058d5dac77197059db30ee3c8329',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/math',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpoffice/phpword' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => '8392134ce4b5dba65130ba956231a1602b848b7f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/phpword',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'sallar/jdatetime' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '74fa0b2c3cfddbc819eea5134fa4588aa1c1adba',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sallar/jdatetime',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'your/package' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

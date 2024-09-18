@@ -1,0 +1,19 @@
+{
+    "name": "your/package",
+    "description": "A brief description of your package",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@example.com",
+            "homepage": "https://example.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^1.2",
+        "sallar/jdatetime": "dev-master"
+        
+        
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,0 +1,119 @@
+/* استایل کلی برای صفحه */
+.lettermanager-type1-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: 100px auto; /* محتوای وسط صفحه */
+    text-align: center; /* مرکز کردن محتوا */
+}
+
+/* استایل عنوان اصلی */
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2E8B57; /* سبز تیره */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #4CAF50; /* خط زیر عنوان */
+    display: inline-block; /* عنوان در مرکز صفحه */
+    padding-bottom: 10px;
+}
+
+/* استایل فرم جدید */
+.new-letter-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-left: 6px solid #4CAF50;
+}
+
+/* استایل فیلدها و لیبل‌ها */
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left; /* متن‌های داخل فیلد چپ چین */
+}
+
+.form-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* استایل فیلد عنوان */
+.title-field input {
+    width: 100%; /* عرض 100 درصدی نسبت به فرم */
+    max-width: 600px; /* حداکثر عرض */
+}
+
+/* استایل ورودی‌ها و سلکت‌ها */
+.form-field input, .form-field select {
+    padding: 12px 15px;
+    font-size: 16px;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* حالت تمرکز در ورودی‌ها */
+.form-field input:focus, .form-field select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+/* استایل دکمه */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+}
+
+/* انیمیشن هنگام هاور شدن روی دکمه */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* استایل پیام خطا */
+.error-message {
+    color: #ff3333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: #ffe5e5;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #ff3333;
+}
+
+/* استایل پیام موفقیت */
+.success-message {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 14px;
+    background-color: #e5ffe5;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 5px solid #4CAF50;
+}

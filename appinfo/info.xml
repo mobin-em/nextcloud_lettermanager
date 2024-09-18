@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>lettermanager</id>
+    <name>Lettermanager</name>
+    <summary>مدیریت نامه‌ها</summary>
+    <description>Hello,
+
+This application is designed for managing letters. You select the type of letter, and based on the last registered letter of that type, it will give you a new letter number. You can also define a template for your letters, and when you create a new letter, the system will automatically insert the letter number and the date in the Persian calendar into the template. The title of the letter will be saved in the database.</description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author mail="mohamad81959681@gmail.com" homepage="">Mohamadreza mirshafie</author>
+    <namespace>Lettermanager</namespace>
+    <category>tools</category>
+    <bugs>http://test.com</bugs>
+    <dependencies>
+        <nextcloud min-version="26" max-version="32"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <id>lettermanager</id>
+            <name>Lettermanager</name>
+            <route>lettermanager.page.index</route>
+            <icon>envelope-solid(1).svg</icon>
+            <type>link</type>
+        </navigation>
+    </navigations>
+</info>
